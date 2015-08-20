@@ -1,0 +1,38 @@
+#mainContainer {
+  position: relative;
+  margin: 100px auto 0 auto;
+  width: 640px;
+  height: 360px;
+}
+
+#content, #adContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 360px;
+}
+
+#contentElement {
+  width: 640px;
+  height: 360px;
+  overflow: hidden;
+}
+
+#playButton {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  vertical-align: top;
+  width: 640px;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  background: #FA5858;
+  border: 0;
+  border-bottom: 2px solid #F5A9A9;
+  cursor: pointer;
+}
